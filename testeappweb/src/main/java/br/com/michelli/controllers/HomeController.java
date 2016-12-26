@@ -21,6 +21,7 @@ public class HomeController {
 	
 	@Autowired
 	private CursoDAO cursoDao;
+	private String cursos;
 	
 	
 	@RequestMapping("/form")
